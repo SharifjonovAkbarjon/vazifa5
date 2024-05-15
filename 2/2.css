@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(30deg, dodgerblue, rgb(200,210,21));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle{
+    width: 70%;
+    height: 70%;
+    background-color: rgba(102, 102, 231, 0.805);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner{
+    width: 50%;
+    height: 70%;
+    background: whitesmoke;
+    margin: auto;
+}
+.heading{
+    margin: 20px;
+    color: rgba(128, 128, 224, 0.562);
+    
+
+
+}
+.username{
+padding: 10px;
+margin: 20px;
+width: 80%;
+}
+.password{
+    padding: 10px;
+    margin: 20px;
+    width: 80%;
+}
+.btn{
+    padding: 10px;
+    margin: 20px;
+    width: 80%;
+    background: rgba(128, 128, 224, 0.562);
+    border: none;
+    color: aliceblue;
+}
+
+
+
